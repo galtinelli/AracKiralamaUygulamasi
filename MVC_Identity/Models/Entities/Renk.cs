@@ -1,9 +1,9 @@
 ﻿namespace MVC_Identity.Models.Entities
 {
-    public class Model
+    public class Renk
     {
-        public int ModelId { get; set; }
-        public string ModelAdi { get; set; }
+        public int RenkId { get; set; }
+        public string RenkAdi { get; set; }
         public ICollection<Arac> Araclar { get; set; }
     }
 }

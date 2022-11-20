@@ -5,5 +5,6 @@
         public string MarkaKisaltmasi { get; set; }
         public string MarkaAdi { get; set; }
         public string LogoPath { get; set; }
+        public ICollection<Arac> Araclar { get; set; }
     }
 }

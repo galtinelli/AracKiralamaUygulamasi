@@ -4,5 +4,6 @@
     {
         public int ModelPaketId { get; set; }
         public string PaketAdi { get; set; }
+        public ICollection<Arac> Araclar { get; set; }
     }
 }
